@@ -1,0 +1,30 @@
+.logo {
+    height: 50px;
+    margin: 15px;
+}
+#navegacion {
+    line-height: 13px;
+}
+.header__subtitulo {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 420;
+}
+.header__nav {
+    padding: 0px;
+    font-size: 12px;
+}
+.header__nav a {
+    text-decoration: none;
+    color: black;
+}
+.burger-menu i {
+    background-color: var(--color-celeste);
+    padding: 5px;
+    color : white;
+    border-radius: 10%;
+}
+ .burger-menu {
+    text-align: center;
+ }
+

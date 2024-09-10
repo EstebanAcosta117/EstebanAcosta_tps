@@ -1,0 +1,14 @@
+.titulo-imagen {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+img {
+    width: 500px;
+    height: auto;
+}
+ul {
+    list-style-type: none
+}
