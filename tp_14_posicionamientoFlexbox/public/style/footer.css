@@ -1,0 +1,34 @@
+footer {
+    background-color: #ebebeb;
+    text-align: center;
+    line-height: 8px;
+}
+footer i {
+    font-size: 2em;
+    color: var(--color-celeste);
+    margin-top: 40px;
+}
+footer p{
+    padding: 0px 35px;
+    margin-top: 0;
+}
+.sub_footer{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.footer__descripcion{
+    line-height: 10px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.ultimo{
+    padding-bottom: 20px;
+}
+
+.derechos {
+    text-align: left;
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 8px;
+    font-weight: 500;
+}
