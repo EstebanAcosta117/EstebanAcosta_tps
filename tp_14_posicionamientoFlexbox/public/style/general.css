@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
 .titulares {
     font-size: 24px;
 }
@@ -17,4 +18,22 @@ body {
 .descripciones {
     font-size: 16px;
 }
-
+@media (min-width: 361px){
+    nav a{
+        font-size: 0.6em ;
+    }
+}
+@media (min-width: 424px){
+    nav a{
+        font-size: 0.7em;
+    }
+}
+@media (min-width: 767px){
+    nav a{
+        font-size: 1em;
+    }
+}
+@media (min-width: 1023px){
+    nav a{
+        font-size: 1.2em;}
+}

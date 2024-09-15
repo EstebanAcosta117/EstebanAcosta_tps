@@ -23,7 +23,7 @@ main img {
 
 h2 {
     width: 90%;
-    margin: 10px auto;
+    margin-left: 15px;
     color: var(--color-gris-oscuro);
     padding-bottom: 10px;
 }
