@@ -1,0 +1,106 @@
+.main__register {
+    padding: 0 20px 150px;
+}
+
+.form__box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form__box--email {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.form__control {
+    border: none;
+    border-bottom: 2px solid var(--color-gris-claro);
+    padding: 10px;
+    outline: none;
+}
+
+.form__label--column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.form__label--fecha {
+    padding-bottom: 20px;
+}
+
+.form__box--rol {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__control--intereses {
+    padding: 10px;
+}
+
+.form__control:focus {
+    border-bottom-color: var(--color-celeste);
+}
+
+.form__label,
+.form__label--fecha {
+    font-weight: 600;
+}
+.form__box--buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.form__buttons--submit, .form__buttons--reset{
+    padding: 10px 10vw;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.8
+}
+.form__buttons--submit:hover, .form__buttons--reset:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: silver 2px 2px 5px;
+}
+.form__buttons--submit{
+    background-color: var(--color-celeste);
+}
+.form__buttons--reset{
+    background-color: red;
+}
+
+/*Login*/
+.main__login{
+    padding: 0 20px 150px;
+}
+.form__login--submit{
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.8;
+    background-color: var(--color-celeste);
+}
+.form__login--submit:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: silver 2px 2px 5px;
+
+}
+
+@media (min-width: 1023px) {
+    .main__register {
+        padding: 50px 200px;
+    }
+    .main__login{
+        padding: 50px 200px 300px;
+    }
+}
