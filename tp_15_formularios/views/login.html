@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/d44dea81e2.js" crossorigin="anonymous"></script>
@@ -44,56 +44,16 @@
         </div>
 
     </header>
-    <main class="main__register">
+    <main class="main__login">
         <form action="">
-            <div class="form__box">
-                <input class="form__control" type="text" placeholder="Nombre y apellido" id="nombre" name="nombre">
-            </div>
             <div class="form__box">
                 <input class="form__control" type="text" placeholder="Nombre de usuario" id="usuario" name="usuario">
             </div>
-            <div class="form__box--email">
-                <input class="form__control" type="text" placeholder="E-mail" id="email" name="email">
-            </div>
             <div class="form__box">
-                <label class="form__label--fecha" for="nacimiento">Fecha de nacimiento</label>
-                <input class="form__control" type="date" id="fecha" name="fecha">
+                <input class="form__control" type="text" placeholder="Contraseña" id="contraseña" name="contraseña">
             </div>
-            <div class="form__box">
-                <input class="form__control" type="text" placeholder="Domicilio" id="domicilio" name="domicilio">
-            </div>
-            <div class="form__box">
-                <label class="form__label" for="rol">Perfil del usuario</label>
-                <div class="form__box--rol">
-                <label class="form__control--rol" for="rol"><input type="radio" name="rol" id="comprador" value="Comprador"
-                        checked>Comprador</label>
-                <label class="form__control--rol" for="rol"><input type="radio" name="rol" id="vendedor"
-                        value="Venderdor">Vendedor</label>
-                    </div>
-            </div>
-            <div>
-                <label class="form__label" for="intereses">Intereses</label>
-                <div class="form__label--column">
-                    <label class="form__control--intereses" for="electro"><input type="checkbox" name="intereses" id="electro" value="Electro">Electro</label>
-                    <label class="form__control--intereses" for="moda"><input type="checkbox" name="intereses" id="moda" value="Moda"> Moda</label>
-                    <label class="form__control--intereses" for="hogar"><input type="checkbox" name="intereses" id="hogar" value="Hogar"> Hogar</label>
-                    <label class="form__control--intereses" for="jugueteria"><input type="checkbox" name="intereses" id="jugueteria" value="Jugueteria">Jugueteria</label>
-                    <label class="form__control--intereses" for="vida_sana"><input type="checkbox" name="vida_sana" id="vida_sana" value="Vida_sana"> Vida sana</label>
-                </div>
-            </div>
-            <div class="form__box">
-            <label class="form__label" for="foto">Foto de usuario</label>
-            <label class="form__control" for="foto"><input type="file" name="foto" id="foto" accept=".jpg"></label>
-        </div>
-        <div class="form__box">
-            <input class="form__control" type="text" placeholder="Contraseña" id="contraseña" name="constraseña">
-        </div>
-        <div class="form__box">
-            <input class="form__control" type="text" placeholder="Confirmar contraseña" id="contraseña" name="constraseña">
-        </div>
-        <div class="form__box--buttons">
-            <button class="form__buttons--submit" type="submit">Enviar</button>
-            <button class="form__buttons--reset" type="reset">Borrar</button>
+            <div class="form__box--buttons">
+            <button class="form__login--submit" type="submit">Enviar</button>
         </div>
         </form>
     </main>
@@ -114,3 +74,4 @@
     </footer>
 </body>
 </html>
+
