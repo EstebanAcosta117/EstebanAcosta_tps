@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/d44dea81e2.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+    <header class="header">
+        <a class="logo" href="/"><img src="images\logo-mercado-liebre.svg" alt="Logo de mercado liebre"></a>
+
+        <div class="header__busqueda">
+            <p>Barra de busqueda</p>
+        </div>
+        <p class="header__subtitulo"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de
+            crédito</p>
+        <nav>
+
+            <ul class="header__nav" type="none">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <div class="header__nav--cuenta">
+                <ul class="header__nav" type="none">
+                    <li><a href="#">Crea tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                    <li><a href="#">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="burger-menu">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </div>
+
+    </header>
+    <main>
+        <form action="">
+            <div class="form__box">
+                <input class="form__control" type="text" placeholder="Nombre y apellido" id="nombre" name="nombre">
+            </div>
+            <div class="form__box">
+                <input class="form__control" type="text" placeholder="Nombre de usuario" id="usuario" name="usuario">
+            </div>
+            <div class="form__box--email">
+                <input class="form__control" type="text" placeholder="E-mail" id="email" name="email">
+            </div>
+            <div class="form__box">
+                <label class="form__label--fecha" for="nacimiento">Fecha de nacimiento</label>
+                <input class="form__control" type="date" name="fecha">
+            </div>
+            <div class="form__box">
+                <input class="form__control" type="text" placeholder="Domicilio" id="domicilio" name="domicilio">
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="rol">Perfil del usuario</label>
+                <div class="form__box--rol">
+                <label class="form__control--rol" for="rol"><input type="radio" name="rol" value="Comprador"
+                        checked>Comprador</label>
+                <label class="form__control--rol" for="rol"><input type="radio" name="rol"
+                        value="Venderdor">Vendedor</label>
+                    </div>
+            </div>
+            </div>
+            <div>
+                <label class="form__label" for="intereses">Intereses</label>
+                <div class="form__label--column">
+                    <label class="form__control--intereses" for="electro"><input type="checkbox" name="intereses" value="Electro">Electro</label>
+                    <label class="form__control--intereses" for="moda"><input type="checkbox" name="intereses" value="Moda"> Moda</label>
+                    <label class="form__control--intereses" for="hogar"><input type="checkbox" name="intereses" value="Hogar"> Hogar</label>
+                    <label class="form__control--intereses" for="jugueteria"><input type="checkbox" name="intereses" value="Jugueteria">
+                        Jugueteria</label>
+                    <label class="form__control--intereses" for="vida_sana"><input type="checkbox" name="vida_sana" value="Vida_sana"> Vida sana</label>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <i class="fa-solid fa-credit-card"></i>
+        <h4 class="sub_footer">Pagá con tarjeta o en efectivo</h4>
+        <p class="footer__descripcion">Con Mercado Liebre Cash, tenés cuotas sin interéscon tarjeta o efectivo en puntos
+            de pago. ¡Ysiempre es seguro!</p>
+        <i class="fa-solid fa-gift"></i>
+        <h4 class="sub_footer"> Envío gratis desde $ 2.500</h4>
+        <p class="footer__descripcion">Solo por estar registrad@ en Mercado Liebre tenésenvíos gratis en miles de
+            productos. Es unbeneficio de Mercado Puntos</p>
+        <i class="fa-solid fa-user-shield"></i>
+        <h4 class="sub_footer"> Seguridad, de principio a fin</h4>
+        <p class="footer__descripcion ultimo">¿No te gusta? ¡Devolvelo! En Mercado Liebre, nohay nada que no puedas
+            hacer, porque estássiempre protegid@.</p>
+        <p class="derechos"> Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
+</body>

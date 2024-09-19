@@ -1,0 +1,89 @@
+header {
+    background-color: var(--color-amarillo);
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+.logo {
+    width: 50%;
+
+}
+.header__busqueda{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+header p{
+    margin: 0;
+    
+}
+
+.header__subtitulo {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 420;
+    width: 100%;
+    align-self: center;
+    padding: 30px;
+}
+header nav {
+    padding: 0px;
+    font-size: 12px;
+    display: none;
+    margin-top: 20px;
+}
+.header__nav a {
+    text-decoration: none;
+    color: black;
+    display: none;
+}
+
+.burger-menu i{ 
+    background-color: var(--color-celeste);
+    padding: 8px;
+    color : white;
+    border-radius: 10%;
+}
+ .burger-menu {
+    text-align: center;
+    width: 100%
+ }
+@media (min-width: 361px){
+    .header__subtitulo{
+        padding: 0
+    }
+    header nav{
+        display: flex;
+    }
+    .header__nav a{
+        display: block;
+        
+    }
+    .burger-menu{
+        display: none;
+    }
+    .logo, .header__busqueda, .header__subtitulo{
+        flex-basis: 33%;
+    }
+    header{
+        justify-content: space-between;
+    }
+    header nav{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        padding: 0px;
+        gap: 10px;
+    }
+    .header__nav--cuenta{
+        margin-left: auto;
+    }
+    
+}
+
+
+
